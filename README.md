@@ -1,4 +1,6 @@
-# STEPs : Self-Supervised Key Step Extraction from Unlabeled Procedural Videos
+#STEPs: Self-Supervised Key Step Extraction and Localization from Unlabeled Procedural Videos
+
+Accepted at ICCV 2023
 
 - Installing the environment : 
     - `conda create -n steps python=3`
@@ -18,3 +20,16 @@
 
 - Acknowledgements
     - We use annotations for Meccano and Evaluation code from EgoProceL (Bansal et al.)
+
+## Citation
+If you find this repository useful in your research, please cite:
+```
+@InProceedings{Shah_2023_ICCV,
+    author    = {Shah, Anshul and Lundell, Benjamin and Sawhney, Harpreet and Chellappa, Rama},
+    title     = {STEPs: Self-Supervised Key Step Extraction and Localization from Unlabeled Procedural Videos},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {10375-10387}
+}
+```
